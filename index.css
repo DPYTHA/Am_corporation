@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(153, 45, 45);
+    
+}
+.header{
+    display: flex;
+    background-color:rgb(245, 235, 209);
+    height: 200px;
+}
+.header img {
+    width: 150px;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.objectif{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 450px;
+    padding-top: 35px;
+}
+.objectif a{
+    text-decoration: none;
+    color: rgb(171, 79, 79);
+}
+/* ..........................................seconde page ........................*/
+
+.corporation{
+    text-align: center;
+    margin-left: 200px;
+   padding-top: 20px;
+   display: flex;
+    width: fit-content;
+    color: bisque;
+    font-size: 40px;
+    text-decoration: none;
+    column-gap: 30px;
+}
+.mes_firma a{
+    text-decoration: none;
+    color: bisque;
+    content: '';
+}
+.mes_firma :hover{
+    background-color: rgb(169, 88, 88);
+    
+
+}
+.photo_profil img{
+    width: 400px;
+    height: 500px;
+    margin-top: 10px;
+    
+    
+}
+span{
+    color: orange;
+    font-size: 90px;
+}
+.mrusse{
+    display: flex;
+}
+.Pythacademy a{
+    display: flex;
+    
+}
+.Fabrikant a{
+    display: flex;
+}
+.mes_firma img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+footer{
+    display: flex;
+    list-style: none;
+    height: 150px;
+    background-color: rgb(21, 20, 20);
+    color: rgb(102, 89, 89);
+}
+footer span{
+    color: bisque;
+}
+footer h1{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+footer .contact{
+padding-left: 600px;
+padding-top: 60px;
+list-style: none;
+}
+footer ul li {
+    list-style: none;
+}
